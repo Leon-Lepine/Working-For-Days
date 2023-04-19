@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<header>
+
+  <nav>
+      <ul>
+  
+          <header class="header">
+          <a href="home.html" class="logo">Working For Days</a>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="overview.html">Overview</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About</a></li> <!--This creates a box-->
+    </ul>
+  </nav>
+
+</header>
+
+
+
+<head>
+    
+  
+      <title>Gallery</title>
+    <meta name="viewport" content="width=device=width, initial=scale=1.0">
+    <meta charset="utf=8">
+    <link rel="shortcut icon" href="/assets favicon.ico">
+    <style>
+      
+     
+        body {
+            margin: 0;
+            background-color: rgb(182, 182, 182);
+        }
+
+        .container {
+            width: 2545px;
+            height: 1300px;
+
+            font-family: 'Quicksands', sans-serif;
+            font-weight: bold;
+            font-size: 20px;
+            color: black;
+
+            display: grid;
+
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 50px 1fr 1fr 100px;
+
+            gap: 15px;
+
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        
+        .container div {
+            padding: 10px;
+            border: 1px solid #000000;
+            
+
+        }
+
+        .headers {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            color: black;
+        }
+        
+        .contentlarge {
+            grid-row-start: 1;
+            grid-row-end: span 1;
+            grid-column-start: 1;
+            grid-column-end: 1;
+
+        }
+        
+        .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: black;
+      padding: 40px 80px;
+    }
+
+    .footer .copy {
+      color: #fff;
+    }
+
+    .bottom-links {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 40px 0;
+    }
+
+    .bottom-links .links {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 40px;
+    }
+
+    .bottom-links .links span {
+      font-size: 20px;
+      color: #fff;
+      text-transform: uppercase;
+      margin: 10px 0;
+    }
+
+    .bottom-links .links a {
+      text-decoration: none;
+      color: #a1a1a1;
+      padding: 10px 20px;
+    }
+       
+
+    header {
+        height: 0px;
+        width: 100%;
+        color: black;
+        font-size: 30px;
+        float: left;
+        padding-bottom: 100px;
+       
+        
+    }
+
+    .header .logo {
+        font-size: 25px;
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+        text-decoration: none;
+        margin-left: 1600px;
+    }
+
+    nav{
+        background-color: black;
+        height: 75px;
+        width: 100%;
+
+    }
+
+
+ul{
+    list-style-type: none;
+    padding-top: 20px;
+
+}
+
+li{
+    float: left;
+
+}
+
+li a{
+    display: block;
+    color: rgb(245, 244, 234);
+    font-size: 35px;
+    text-decoration: none;
+    text-align: center;
+    padding-right: 50px;
+}
+
+li a:hover{
+    color: red;
+
+}
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="headers">Gallery</div>
+        <div class="content-small"><img src="Images/Game Title copy.png"></div>
+        <div class="content-small">These top images are screenshots from my game. One is the title which contains buttons to start and exit the game and options which will prossibly contains sound settings and more.</div>
+        <div class="content-small"><img src= "Images/Game HUD.png"></div>
+        <div class="content-small"><img src= "Images/Game Map Layout Floor 1 copy.png" ></div>
+        <div class="content-small">These bottom images are the map layout designs which might be viewable in game. The image help shows how the map looks on each floor in a basic easy to view form. </div>
+        <div class="content-small"><img src= "Images/Game Map Layout Floor 2 copy.png "></div>
+
+     </div>
+    
+</body>
+
+<footer class="footer">
+    <div class="bottom-links">
+   <div class="links">
+     <span>More Info</span>
+     <a href="home.html">Home</a>
+     <a href="overview.html">Overview</a>
+     <a href="gallery.html">Gallery</a>
+     <a href="about.html">About</a>
+   </div>
+
+   </div>
+ </div>
+</footer>

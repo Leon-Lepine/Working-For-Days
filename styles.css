@@ -1,0 +1,230 @@
+
+    body{
+        background-color: rgb(41, 41, 41); /*This styles the whole document*/
+    }
+
+
+    header {
+        height: 0px;
+        width: 100%;
+        color: black;
+        font-size: 30px;
+        float: left;
+       
+        
+    }
+
+    .header .logo {
+        font-size: 25px;
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+        text-decoration: none;
+        margin-left: 1600px;
+
+
+    }
+    .boxl{
+        background-color: rgb(112, 112, 112);
+        height: 1000px;
+        width: 20%;
+        color: black;
+        font-size: 50px;
+        float: left;
+        padding-left: 5%; /*adds space to the left of the box*/
+        padding-top: 10px;/*adds space to the top of the box*/
+        margin-top: 120px;
+        
+    }
+
+    .boxm{
+        background-color: rgb(153, 153, 153);
+        height: 1000px;
+        width: 48%;
+        color: black;
+        font-size: 50px;
+        float: left;
+        padding-left: 2%; /*adds space to the left of the box*/
+        padding-top: 10px;/*adds space to the top of the box*/
+        margin-top: 120px;
+    }
+
+    .boxr{
+        background-color: rgb(112, 112, 112);
+        height: 1000px;
+        width: 23%;
+        color: black;
+        font-size: 50px;
+        float: left;
+        padding-left: 2%; /*adds space to the left of the box*/
+        padding-top: 10px;/*adds space to the top of the box*/
+        margin-top: 120px;
+    }
+
+    .boxtl{
+        background-color: rgb(112, 112, 112);
+        height: 500px;
+        width: 784px;
+        color: black;
+        font-size: 50px;
+        float: left;
+        padding-right: 2%; /*adds space to the left of the box*/
+        padding-top: 10px;/*adds space to the top of the box*/
+        margin-top: 200px;
+        gap: 10px;
+    }
+
+    .boxtm{
+        background-color: rgb(182, 182, 182);
+        height: 500px;
+        width: 784px;
+        color: black;
+        font-size: 50px;
+        float: left;
+        padding-right: 2%; /*adds space to the left of the box*/
+        padding-top: 10px;/*adds space to the top of the box*/
+        margin-top: 200px;
+        gap: 10px;
+    }
+
+    .boxtr{
+        background-color: rgb(112, 112, 112);
+        height: 500px;
+        width: 784px;
+        color: black;
+        font-size: 50px;
+        float: left;
+        padding-right: 2%; /*adds space to the left of the box*/
+        padding-top: 10px;/*adds space to the top of the box*/
+        margin-top: 200px;
+        gap: 10px;
+    }
+    
+    .boxbl{
+        background-color: rgb(182, 182, 182);
+        height: 500px;
+        width: 784px;
+        color: black;
+        font-size: 50px;
+        float: left;
+        padding-right: 2%; /*adds space to the left of the box*/
+        padding-top: 0px;/*adds space to the top of the box*/
+        margin-top: 0px;
+    }
+
+    .boxbm{
+        background-color: rgb(112, 112, 112);
+        height: 500px;
+        width: 784px;
+        color: black;
+        font-size: 50px;
+        float: left;
+        padding-right: 2%; /*adds space to the left of the box*/
+        padding-top: 0px;/*adds space to the top of the box*/
+        margin-top: 0px;
+    }
+
+    .boxbr{
+        background-color: rgb(182, 182, 182);
+        height: 500px;
+        width: 784px;
+        color: black;
+        font-size: 50px;
+        float: left;
+        padding-right: 2%; /*adds space to the left of the box*/
+        padding-top: 0px;/*adds space to the top of the box*/
+        margin-top: 0px;
+    }
+
+    .boxhp{
+        background-color: rgb(182, 182, 182);
+        height: 300px;
+        width: 100%;
+        color: black;
+        font-size: 80px;
+        float: left;
+        padding-left: 0%; /*adds space to the left of the box*/
+        padding-top: 5%;/*adds space to the top of the box*/
+        margin-top: 0px;
+    }
+    
+    .boxhl{
+        background-color: rgb(112, 112, 112);
+        height: 300px;
+        width: 31%;
+        color: black;
+        font-size: 50px;
+        float: left;
+        padding-left: 2%; /*adds space to the left of the box*/
+        padding-top: 10px;/*adds space to the top of the box*/
+        margin-top: 120px;
+    }
+    
+    .boxhm{
+        background-color: rgb(153, 153, 153);
+        height: 300px;
+        width: 32%;
+        color: black;
+        font-size: 50px;
+        float: left;
+        padding-left: 2%; /*adds space to the left of the box*/
+        padding-top: 10px;/*adds space to the top of the box*/
+        margin-top: 120px;
+    }
+    
+    .boxhr{
+        background-color: rgb(112, 112, 112);
+        height: 300px;
+        width: 31%;
+        color: black;
+        font-size: 50px;
+        float: left;
+        padding-left: 2%; /*adds space to the left of the box*/
+        padding-top: 10px;/*adds space to the top of the box*/
+        margin-top: 120px;
+    }
+
+    footer{
+        background-color: rgb(41, 41, 41);
+        height: 5%;
+        width: 100%;
+        color:black;
+        font-size: 50px;
+        float: left;
+        padding-left: 2%; /*adds space to the left of the box*/
+        padding-top: 10px;/*adds space to the top of the box*/
+        margin-top: 200px;
+        flex-direction: column;
+    }
+
+    nav{
+        background-color: black;
+        height: 75px;
+        width: 100%;
+
+    }
+
+
+ul{
+    list-style-type: none;
+    padding-top: 20px;
+
+}
+
+li{
+    float: left;
+
+}
+
+li a{
+    display: block;
+    color: rgb(245, 244, 234);
+    font-size: 35px;
+    text-decoration: none;
+    text-align: center;
+    padding-right: 50px;
+}
+
+li a:hover{
+    color: red;
+
+}
